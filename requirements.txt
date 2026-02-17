@@ -1,0 +1,14 @@
+# Qwen3-TTS Voice Cloning Dependencies
+
+# Core TTS package
+qwen-tts
+
+# Audio processing
+soundfile
+
+# For automatic transcription of reference audio
+openai-whisper
+
+# Optional: FlashAttention2 for reduced GPU memory
+# Uncomment and install separately if needed:
+# flash-attn
